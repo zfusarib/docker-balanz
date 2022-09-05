@@ -26,4 +26,4 @@ Tienen en común la layer "sha256:73046094a9b835e443af1a9d736fcfc11a994107500e47
 "...cada capa representa un cambio importante en el sistema de archivos del contenedor y estas a su vez pueden ser compartidas entre distintas imágenes." 
 "Este concepto de capas reutilizables"
 
-Intuyo que al estar ambas imagenes utilizando java, reciclan esa capa y utilizan la misma. 
+Intuyo que al estar ambas imagenes utilizando java, reciclan esa capa y utilizan la misma. O utilizan el mismo sistema operativo. 
