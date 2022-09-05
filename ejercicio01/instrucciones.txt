@@ -1,0 +1,11 @@
+1) Crear una carpeta html con un index.html y el contenido.
+
+2) Correr el comando:
+
+docker run -d --name web -p 80:80 -v  $PWD/ejercicio01/html/:/usr/share/nginx/html:ro nginx
+
+el comando --name le asigna nombre al contenedor
+el comando -p nos permite asignar un puerto especifico
+el comando -v permite levantar una un archivo especifico
+uso $PWD para que tome todo mi path en el que estoy trabajando
+le colocamos al final la imagen que queremos que use 'nginx'
